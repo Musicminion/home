@@ -62,7 +62,7 @@ p {
 .cards {
   border-radius: 6px;
   background-color: #00000040;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
   transform: scale(1);
   transition:
     backdrop-filter 0.3s,
