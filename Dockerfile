@@ -1,4 +1,4 @@
-# docker build . -t registry.cn-shanghai.aliyuncs.com/ayaka/ayaka-home:
+# docker build . -t registry.cn-shanghai.aliyuncs.com/ayaka/ayaka-home:latest
 FROM node:16.19.1-alpine as build
 
 # 设置工作目录
