@@ -8,7 +8,7 @@ on:
 
 env:
   NODE_VERSION: 16.19.1
-  DOCKER_REGISTRY: docker.io
+  DOCKER_REGISTRY: ghcr.io
   IMAGE_NAME: musicminion/home
   IMAGE_TAG: dev
 
