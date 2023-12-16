@@ -9,5 +9,4 @@ COPY . .
 # 安装依赖
 RUN npm install -g pnpm && \
     pnpm install && \
-    pnpm build && \
-    pnpm dev
+    pnpm build 
