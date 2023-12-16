@@ -96,6 +96,10 @@ watch(
     .logo-img {
       border-radius: 50%;
       width: 120px;
+      transition: transform 0.5s; /* 添加过渡效果 */
+    }
+    .logo-img:hover{
+      transform: rotate(360deg); /* 鼠标悬停时旋转 */
     }
     .name {
       width: 100%;
